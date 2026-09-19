@@ -16,7 +16,7 @@ HTML·CSS·JavaScript로 만든 개인 소개 페이지와, React 화면에서 F
 |---|---|---|---|
 | 개인 소개 페이지 | HTML · CSS · JavaScript | Vercel | 이 저장소 (`index.html`, `style.css`, `script.js`) |
 | 프론트엔드 (메모 앱 화면) | React (Vite) | Vercel | https://github.com/platina310/memo-frontend |
-| 백엔드 (메모 API) | FastAPI · SQLAlchemy | Render | 메모백엔드_저장소_주소https://github.com/platina310/memo-backend |
+| 백엔드 (메모 API) | FastAPI · SQLAlchemy | Render | https://github.com/platina310/memo-backend |
 | 데이터베이스 | PostgreSQL | Supabase | - |
 
 동작 흐름
