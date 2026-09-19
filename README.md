@@ -17,6 +17,6 @@ FastAPI 백엔드 API를 호출해 메모를 저장·조회·삭제하는 풀스
 흐름: 소개 페이지 → (링크) → 메모 앱 → fetch → FastAPI → PostgreSQL
 
 ## 배포 주소
-- 개인 소개 페이지: https://my-page-xxxx.vercel.app
+- 개인 소개 페이지: https://my-page-dfmba.vercel.app
 - 연동 실습(메모 앱): https://memo-frontend-dfmba.vercel.app
 - 백엔드 Swagger UI: https://memo-backend-3iqc.onrender.com/docs
