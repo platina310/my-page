@@ -1,6 +1,6 @@
 * { box-sizing: border-box; margin: 0; }
 :root { --brand: #2f6f6a; --bg: #f4f4f0; }
-body { font-family: sans-serif; background: var(--bg); }
+body { font-family: Pretendard, sans-serif; background: var(--bg); }
 
 header {                /* 제목 줄. 다음 단계에서 다크모드 버튼이 여기 들어간다 */
   display: flex; justify-content: space-between; align-items: center;
@@ -31,3 +31,12 @@ body.dark .card { background: #2b2b2b; }
        background:#3d6b5f; color:#fff; text-decoration:none; margin:6px 6px 0 0;
        transition:transform .15s, box-shadow .15s; }
 .btn:hover { transform:translateY(-2px); box-shadow:0 6px 16px rgba(0,0,0,.15); }
+
+body { word-break: keep--all;}
+button { white-space: nowrap; }
+
+.timeline { list-style:none; padding:0; margin:12px 0 0; text-align:left;
+            border-left:2px solid #3d6b5f; }
+.timeline li { position:relative; padding:0 0 16px 18px; font-size:15px; }
+.timeline li::before { content:""; position:absolute; left:-7px; top:6px;
+                       width:12px; height:12px; border-radius:50%; background:#3d6b5f; }
