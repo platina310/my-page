@@ -10,8 +10,8 @@ FastAPI 백엔드 API를 호출해 메모를 저장·조회·삭제하는 풀스
 | 구분 | 기술 | 배포 | 저장소 |
 |---|---|---|---|
 | 개인 소개 페이지 | HTML · CSS · JS | Vercel | 이 저장소 |
-| 프론트엔드 | React (Vite) | Vercel | https://github.com/<사용자명>/memo-frontend |
-| 백엔드 | FastAPI · SQLAlchemy | Render | https://github.com/<사용자명>/memo-backend |
+| 프론트엔드 | React (Vite) | Vercel | https://github.com/platina310/memo-frontend |
+| 백엔드 | FastAPI · SQLAlchemy | Render | https://github.com/platina310/memo-backend |
 | 데이터베이스 | PostgreSQL | Supabase | - |
 
 흐름: 소개 페이지 → (링크) → 메모 앱 → fetch → FastAPI → PostgreSQL

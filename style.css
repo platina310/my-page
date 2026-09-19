@@ -18,8 +18,16 @@ header {                /* 제목 줄. 다음 단계에서 다크모드 버튼�
   transition: transform 0.2s;                 /* 부드러운 움직임 */
 }
 .card:hover { transform: translateY(-6px); }  /* 마우스를 올리면 살짝 위로 */
-.card img { border-radius: 50%; }             /* 원형 프로필 */
+.card img { width:120px; height:120px; border-radius:50%; object-fit:cover; }             /* 원형 프로필 */
 .card .role { color: var(--brand); font-weight: bold; }
 
 body.dark { background: #1a1a1a; color: #eee; }
 body.dark .card { background: #2b2b2b; }
+
+.tags { display:flex; flex-wrap:wrap; gap:8px; justify-content:center; margin-top:12px; }
+.tags span { padding:4px 12px; border-radius:999px; background:#e6efec; color:#3d6b5f; font-size:14px; }
+
+.btn { display:inline-block; padding:10px 18px; border-radius:10px;
+       background:#3d6b5f; color:#fff; text-decoration:none; margin:6px 6px 0 0;
+       transition:transform .15s, box-shadow .15s; }
+.btn:hover { transform:translateY(-2px); box-shadow:0 6px 16px rgba(0,0,0,.15); }

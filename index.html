@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css">
 </head>
 <body>
     <!-- index.html 의 body 안에 작성 -->
@@ -19,7 +20,7 @@
 
   <!-- article: 독립적으로 의미있는 '카드 하나' -->
   <article class="card">
-    <img src="https://placehold.co/120x120" alt="김하나 프로필 사진">
+    <img src="profile.jpeg" alt="이수정 프로필 사진">
     <h2>이수정</h2>
     <p class="role">디지털금융 MBA</p>
     <p>자산운용사에서 국내 주식운용 리서치를 맡고 있습니다.</p>
@@ -29,13 +30,17 @@
     <h2>관심 분야</h2>
     <p class="role">무엇을 파고드나</p>
     <p>건강하고 착한 부자가 되기 위해 노력하고 있습니다.</p>
+    <div class="tags">
+      <span>AI</span><span>Global Equity</span><span>Cryptocurrency</span>
+      <span>저속노화</span><span>방탈출</span><span>swimming</span>
+    </div>
   </article>
 
   <section>
      <h2>프론트엔드·백엔드 연동 실습</h2>
      <p>React 화면에서 FastAPI 백엔드 API를 호출하는 메모 앱입니다.</p>
-     <p><a href="https://memo-frontend-dfmba.vercel.app" target="_blank">📝 메모 앱 열기</a></p>
-     <p><a href="https://memo-backend-3iqc.onrender.com/docs" target="_blank">📘 백엔드 Swagger UI</a></p>
+     <p><a class="btn" href="https://memo-frontend-dfmba.vercel.app" target="_blank">📝 메모 앱 열기</a></p>
+     <p><a class="btn" href="https://memo-backend-3iqc.onrender.com/docs" target="_blank">📘 백엔드 Swagger UI</a></p>
   </section>
 
 </main>
